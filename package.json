@@ -1,0 +1,21 @@
+{
+  "name": "chatify-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build" : "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start" : "npm run strat --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oriyahazan/chatify-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oriyahazan/chatify-chat/issues"
+  },
+  "homepage": "https://github.com/oriyahazan/chatify-chat#readme",
+  "description": ""
+}
